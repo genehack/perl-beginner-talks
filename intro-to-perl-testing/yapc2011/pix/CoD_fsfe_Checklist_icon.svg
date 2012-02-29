@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="180"
+   height="180"
+   id="svg2845"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="checklist.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2847">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2853" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="-3.0251699"
+     inkscape:cy="83.32558"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="727"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata2850">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Checklist icon</dc:title>
+        <dc:date>28/7/2008</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Claudio Canavese (CoD)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Claudio Canavese (CoD)</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>checklist</rdf:li>
+            <rdf:li>test</rdf:li>
+            <rdf:li>check</rdf:li>
+            <rdf:li>exam</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:description>Checklist icon</dc:description>
+        <dc:coverage>Originally developed for www.studenti.unige.it</dc:coverage>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(176.10495,-59.114378)"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <rect
+       style="fill:#ccccff;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.04788494;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
+       id="rect2160"
+       width="174.01915"
+       height="174.01915"
+       x="2.9904211"
+       y="2.9904249"
+       rx="8.9070225"
+       ry="8.9070225"
+       transform="translate(-176.10495,59.114378)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="icon">
+    <g
+       id="g3304"
+       transform="translate(-216.54077,-150.21456)">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         id="rect3609"
+         d="M 260.09842,178.72091 C 257.57102,178.95337 255.59842,180.91043 255.59842,183.27649 L 255.59842,297.166 C 255.59842,299.68979 257.82842,301.72158 260.59842,301.72158 L 350.59843,301.72158 C 353.36843,301.72158 355.59843,299.68979 355.59843,297.166 L 355.59843,202.07519 L 332.16093,178.72091 L 260.59842,178.72091 C 260.4253,178.72091 260.26692,178.70541 260.09842,178.72091 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect3625"
+         d="M 332.20552,178.70754 L 332.20552,197.08254 C 332.20552,199.85254 334.43552,202.08254 337.20552,202.08254 L 355.61177,202.08254 L 332.20552,178.70754 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
+         d="M 332.20552,178.70754 L 332.20552,197.08254 C 332.20552,199.85254 334.43552,202.08254 337.20552,202.08254 L 355.61177,202.08254 L 332.20552,178.70754 z"
+         id="path3643"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         ry="2"
+         rx="2"
+         y="200.21455"
+         x="262.6051"
+         height="10"
+         width="10"
+         id="rect3646"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline" />
+      <use
+         height="180"
+         width="180"
+         transform="translate(5.0448492e-7,20.000001)"
+         id="use3648"
+         xlink:href="#rect3646"
+         y="0"
+         x="0"
+         style="display:inline" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#rect3646"
+         id="use3650"
+         transform="translate(5.0448492e-7,40.000001)"
+         width="180"
+         height="180"
+         style="display:inline" />
+      <use
+         height="180"
+         width="180"
+         transform="translate(5.0448492e-7,60)"
+         id="use3652"
+         xlink:href="#rect3646"
+         y="0"
+         x="0"
+         style="display:inline" />
+      <path
+         id="path3654"
+         d="M 279.6051,205.21456 L 308.6051,205.21456"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <use
+         height="180"
+         width="180"
+         transform="translate(5.0448492e-7,20.000001)"
+         id="use3656"
+         xlink:href="#path3654"
+         y="0"
+         x="0"
+         style="display:inline" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#path3654"
+         id="use3658"
+         transform="translate(5.0448492e-7,40.000001)"
+         width="180"
+         height="180"
+         style="display:inline" />
+      <use
+         height="180"
+         width="180"
+         transform="translate(5.0448492e-7,60)"
+         id="use3660"
+         xlink:href="#path3654"
+         y="0"
+         x="0"
+         style="display:inline" />
+      <path
+         d="M 264.24933,198.25503 C 264.64384,198.97336 264.27476,198.29289 264.7687,199.24012 C 264.90545,199.50238 265.06063,199.75553 265.18282,200.02488 C 265.69989,201.16469 266.06357,202.3832 266.45976,203.56768 C 266.77137,204.23497 267.13778,206.07002 267.70336,206.56678 C 267.83527,206.68264 268.05093,206.72399 268.2191,206.67359 C 268.48055,206.59522 269.16683,206.20226 268.89399,206.20992 C 268.4325,206.22287 268.02815,206.5307 267.59524,206.6911 C 270.38615,204.30874 273.16787,201.90489 276.19032,199.81494 C 278.13539,198.46996 279.24592,197.85326 281.25688,196.6558 C 286.14266,193.90615 284.0699,195.01001 287.43164,193.26379 L 285.42707,194.87082 C 283.55893,195.81882 284.28429,195.68401 283.42754,195.81994 C 281.44956,196.9821 280.19615,197.67273 278.29172,198.9819 C 275.39369,200.97411 272.73745,203.28639 270.1483,205.65832 C 268.96734,206.45188 267.8217,207.30072 266.60541,208.03899 C 266.33523,208.20298 266.02645,208.35516 265.71041,208.35203 C 265.15378,208.3465 264.90404,207.55595 264.77205,207.21992 C 264.47659,206.46772 264.32148,205.66511 264.01713,204.916 C 263.38789,203.1372 262.77626,201.30844 261.54506,199.83965 L 264.24933,198.25503 z"
+         id="path3790"
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline" />
+      <use
+         height="180"
+         width="180"
+         transform="translate(5.0448492e-7,20.000001)"
+         id="use3792"
+         xlink:href="#path3790"
+         y="0"
+         x="0"
+         style="display:inline" />
+      <g
+         transform="matrix(0.9752488,-0.2211102,0.2211102,0.9752488,145.6663,216.37347)"
+         id="g4255"
+         style="display:inline">
+        <path
+           style="fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path2166"
+           d="M 156.39282,104.42709 L 155.66737,103.093 L 149.99872,105.22479 L 149.95015,105.29442 L 156.39282,104.42709 z" />
+        <rect
+           style="fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           height="60"
+           width="4.4544921"
+           y="99.323654"
+           x="-171.01212"
+           id="rect4237"
+           transform="matrix(-0.4777195,-0.8785124,0.8785124,-0.4777195,0,0)" />
+        <rect
+           style="fill:#d40000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           height="60"
+           width="4.4544921"
+           y="99.323654"
+           x="-166.55762"
+           id="rect2162"
+           transform="matrix(-0.4777195,-0.8785124,0.8785124,-0.4777195,0,0)" />
+        <rect
+           style="fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           height="60"
+           width="4.4544921"
+           y="99.323654"
+           x="-162.10313"
+           id="rect2164"
+           transform="matrix(-0.4777195,-0.8785124,0.8785124,-0.4777195,0,0)" />
+        <path
+           style="fill:#ffd42a;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3162"
+           d="M 155.66737,103.093 L 166.93796,98.865685 L 167.00758,98.914253 L 164.86165,94.809011 L 164.84644,94.860499 L 154.94191,101.75891 L 155.66737,103.093 z" />
+        <path
+           style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path2179"
+           d="M 155.66737,103.093 L 154.94191,101.75891 L 149.99872,105.22479 L 155.66737,103.093 z" />
+        <path
+           style="fill:#ff2a2a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path2171"
+           d="M 154.94191,101.75891 L 154.25273,100.49153 L 149.99872,105.22479 L 154.94191,101.75891 z" />
+        <path
+           style="fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3165"
+           d="M 154.94191,101.75891 L 164.84644,94.860499 L 164.86165,94.809011 L 162.80933,90.95537 L 154.25273,100.49153 L 154.94191,101.75891 z" />
+        <path
+           style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3159"
+           d="M 156.39282,104.42709 L 169.05991,102.76789 L 167.00758,98.914253 L 166.93796,98.865685 L 155.66737,103.093 L 156.39282,104.42709 z" />
+      </g>
+    </g>
+  </g>
+</svg>

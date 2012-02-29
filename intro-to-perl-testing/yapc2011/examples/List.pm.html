@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>[untitled]</title>
+  <style>
+/*
+ * A stylesheet designed to be used with the HTML output of the
+ * Perl module Text::Highlight::Vim.
+ *
+ * This is designed to make the highlighting look like the default gvim
+ * colour scheme, with 'background=light'.
+ *
+ * Geoff Richards (qef@laxan.com)
+ *
+ * This CSS file (light.css) is public domain.  Do what you want with it.
+ * That doesn't mean that HTML with this CSS in is public domain.
+ */
+
+body { color: black; background: white none }
+
+A:link { color: #00F; background: white none }
+A:visited { color: #909; background: white none }
+A:hover { color: #F00; background: white none }
+A:active { color: #F00; background: white none }
+
+.synComment    { color: #0000FF }
+.synConstant   { color: #FF00FF }
+.synIdentifier { color: #008B8B }
+.synStatement  { color: #A52A2A ; font-weight: bold }
+.synPreProc    { color: #A020F0 }
+.synType       { color: #2E8B57 ; font-weight: bold }
+.synSpecial    { color: #6A5ACD }
+.synUnderlined { color: #000000 ; text-decoration: underline }
+.synError      { color: #FFFFFF ; background: #FF0000 none }
+.synTodo       { color: #0000FF ; background: #FFFF00 none }
+</style>
+ </head>
+ <body>
+
+<pre><span class="synStatement">package</span><span class="synType"> List</span>;
+
+<span class="synStatement">use warnings</span>;
+<span class="synStatement">use strict</span>;
+<span class="synStatement">require</span> Exporter;
+
+<span class="synStatement">our</span> <span class="synIdentifier">@ISA</span> = <span class="synConstant">qw(Exporter)</span>;
+<span class="synStatement">our</span> <span class="synIdentifier">@EXPORT</span> = <span class="synConstant">qw(first)</span>;
+<span class="synStatement">our</span> <span class="synIdentifier">$VERSION</span> = <span class="synConstant">0.03</span>;
+
+<span class="synStatement">sub </span><span class="synIdentifier">first</span>
+{
+    <span class="synStatement">if</span>( <span class="synStatement">ref</span> <span class="synIdentifier">$_[</span><span class="synConstant">0</span><span class="synIdentifier">]</span> <span class="synStatement">eq</span> <span class="synConstant">'CODE'</span> )
+    {
+        <span class="synStatement">return</span> _first_pred( <span class="synIdentifier">@_</span> );
+    }
+    <span class="synStatement">elsif</span>( <span class="synStatement">ref</span> <span class="synIdentifier">$_[</span><span class="synConstant">0</span><span class="synIdentifier">]</span> <span class="synStatement">eq</span> <span class="synConstant">'Regexp'</span> )
+    {
+        <span class="synStatement">return</span> _first_regex( <span class="synIdentifier">@_</span> );
+    }
+    <span class="synStatement">else</span>
+    {
+        <span class="synStatement">die</span> <span class="synConstant">&quot;First argument is not a coderef or regex</span><span class="synSpecial">\n</span><span class="synConstant">&quot;</span>;
+    }
+}
+
+<span class="synStatement">sub </span><span class="synIdentifier">_first_pred</span>
+{
+    <span class="synStatement">my</span> <span class="synIdentifier">$pred</span> = <span class="synStatement">shift</span>;
+    <span class="synStatement">for</span>(<span class="synIdentifier">@_</span>)
+    {
+        <span class="synStatement">return</span> <span class="synIdentifier">$_</span> <span class="synStatement">if</span> <span class="synIdentifier">$pred</span>-&gt;();
+    }
+    <span class="synStatement">return</span>;
+}
+
+<span class="synStatement">sub </span><span class="synIdentifier">_first_regex</span>
+{
+    <span class="synStatement">my</span> <span class="synIdentifier">$pred</span> = <span class="synStatement">shift</span>;
+    <span class="synStatement">for</span>(<span class="synIdentifier">@_</span>)
+    {
+        <span class="synStatement">return</span> <span class="synIdentifier">$_</span> <span class="synStatement">if</span> <span class="synIdentifier">$_</span> =~ <span class="synIdentifier">$pred</span>;
+    }
+    <span class="synStatement">return</span>;
+}
+
+<span class="synConstant">1</span>;
+</pre>
+
+ </body>
+</html>

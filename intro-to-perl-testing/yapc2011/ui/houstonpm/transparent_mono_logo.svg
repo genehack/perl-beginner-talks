@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg 
+ xmlns='http://www.w3.org/2000/svg'
+ xml:space='preserve'
+ xmlns:xlink='http://www.w3.org/1999/xlink'
+ width='300' 
+ height='300'
+  viewBox='0 0 600 600'>
+ <title>SVG Simple Icon Basic</title>
+ <desc>Designed for the SVG Logo Contest in 2006 by Harvey Rayner. It is available under the Creative Commons license for those who have an SVG product or who are using SVG on their site.</desc>
+ 
+   <metadata>
+      <title>Creative Commons License</title>
+      <rdf:RDF xmlns='http://web.resource.org/cc/' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'>
+         <Work rdf:about=''>
+            <license rdf:resource='http://creativecommons.org/licenses/by-nd/2.5/' />
+            <dc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' />
+         </Work>
+         <License rdf:about='http://creativecommons.org/licenses/by-nd/2.5/'>
+            <permits rdf:resource='http://web.resource.org/cc/Reproduction'/><permits rdf:resource='http://web.resource.org/cc/Distribution'/>
+            <requires rdf:resource='http://web.resource.org/cc/Notice'/>
+            <requires rdf:resource='http://web.resource.org/cc/Attribution'/>
+         </License>
+      </rdf:RDF> 
+   </metadata>
+
+ <g>
+
+     <!--  <rect fill="#F71E3B" x="0" y="0" width="600" height="600"/> -->
+
+  <g id="node_outline" fill="#000000" opacity="0.2">
+   <circle cx="300" cy="501.819" r="83.5962"/>
+   <circle cx="300" cy="300" r="167.192"/>
+   <circle cx="157.293" cy="157.293" r="83.5965"/>
+   <circle cx="300" cy="98.1818" r="83.5965"/>
+   <circle cx="442.707" cy="157.293" r="83.5965"/>
+   <circle cx="501.819" cy="300" r="83.5951"/>
+   <circle cx="442.707" cy="442.707" r="83.5944"/>
+   <circle cx="157.293" cy="442.707" r="83.5962"/>
+   <circle cx="98.1815" cy="300" r="83.5962"/>
+  </g>
+  <g id="nodes" fill="#ffffff">
+   <circle cx="300" cy="98.1815" r="45.2521"/>
+   <circle cx="442.707" cy="157.293" r="45.2521"/>
+   <circle cx="501.819" cy="300" r="45.2507"/>
+   <circle cx="442.707" cy="442.707" r="45.2521"/>
+   <circle cx="300" cy="501.819" r="45.2521"/>
+   <circle cx="157.293" cy="442.707" r="45.2486"/>
+   <circle cx="98.1815" cy="300" r="45.25"/>
+   <circle cx="157.293" cy="157.293" r="45.2486"/>
+  </g>
+  <g id="connectors" fill="none" stroke="#ffffff" stroke-width="63.9921">
+   <line x1="300" y1="98.1815" x2="300" y2= "501.819" />
+   <line x1="442.707" y1="157.293" x2="157.293" y2= "442.707" />
+   <line x1="501.819" y1="300" x2="98.1815" y2= "300" />
+   <line x1="442.707" y1="442.707" x2="157.293" y2= "157.293" />
+  </g>
+ </g>
+</svg>

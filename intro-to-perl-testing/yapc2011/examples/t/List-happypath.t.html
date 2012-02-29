@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>[untitled]</title>
+  <style>
+/*
+ * A stylesheet designed to be used with the HTML output of the
+ * Perl module Text::Highlight::Vim.
+ *
+ * This is designed to make the highlighting look like the default gvim
+ * colour scheme, with 'background=light'.
+ *
+ * Geoff Richards (qef@laxan.com)
+ *
+ * This CSS file (light.css) is public domain.  Do what you want with it.
+ * That doesn't mean that HTML with this CSS in is public domain.
+ */
+
+body { color: black; background: white none }
+
+A:link { color: #00F; background: white none }
+A:visited { color: #909; background: white none }
+A:hover { color: #F00; background: white none }
+A:active { color: #F00; background: white none }
+
+.synComment    { color: #0000FF }
+.synConstant   { color: #FF00FF }
+.synIdentifier { color: #008B8B }
+.synStatement  { color: #A52A2A ; font-weight: bold }
+.synPreProc    { color: #A020F0 }
+.synType       { color: #2E8B57 ; font-weight: bold }
+.synSpecial    { color: #6A5ACD }
+.synUnderlined { color: #000000 ; text-decoration: underline }
+.synError      { color: #FFFFFF ; background: #FF0000 none }
+.synTodo       { color: #0000FF ; background: #FFFF00 none }
+</style>
+ </head>
+ <body>
+
+<pre><span class="synPreProc">#!/usr/bin/perl</span>
+
+<span class="synStatement">use </span>Test::More <span class="synConstant">tests</span> =&gt; <span class="synConstant">3</span>;
+
+<span class="synStatement">use strict</span>;
+<span class="synStatement">use warnings</span>;
+
+<span class="synStatement">use </span>List;
+
+is( first( <span class="synStatement">sub </span>{ <span class="synIdentifier">$_</span> == <span class="synConstant">3</span> }, ( <span class="synConstant">1</span> .. <span class="synConstant">5</span> ) ), <span class="synConstant">3</span>, <span class="synConstant">'Matches a specific value'</span> );
+ok( !<span class="synStatement">defined</span> first( <span class="synStatement">sub </span>{ <span class="synIdentifier">$_</span> == <span class="synConstant">7</span> }, ( <span class="synConstant">1</span> .. <span class="synConstant">5</span> ) ), <span class="synConstant">'Returns undef if not found'</span> );
+
+is( first( <span class="synConstant">qr/</span><span class="synSpecial">\D</span><span class="synConstant">/</span>, ( <span class="synConstant">1</span> .. <span class="synConstant">5</span>, <span class="synConstant">'fred'</span> ) ), <span class="synConstant">'fred'</span>, <span class="synConstant">'Matches by regex'</span> );
+</pre>
+
+ </body>
+</html>
